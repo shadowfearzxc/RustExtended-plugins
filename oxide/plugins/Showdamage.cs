@@ -6,7 +6,7 @@ using RustExtended;
 
 namespace Oxide.Plugins
 {
-    [Info("Showdamage", "edited by kustanovich", 1.0)]
+    [Info("Showdamage", "kustanovich", 1.0,0)]
     class Showdamage : RustLegacyPlugin
     {
 		void Loaded()
