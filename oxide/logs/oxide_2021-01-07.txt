@@ -1,0 +1,87 @@
+12:45 [Info] Loading Oxide Core v2.0.0...
+12:45 [Info] Loading extensions...
+12:45 [Info] Loaded extension CSharp v1.0.0 by Oxide Team
+12:45 [Info] Loaded extension JavaScript v1.0.2755 by Oxide Team
+12:45 [Info] Loaded extension Lua v1.0.2755 by Oxide Team
+12:45 [Info] Loaded extension MySql v1.0.2755 by Oxide Team
+12:45 [Info] Loaded extension Python v1.0.2755 by Oxide Team
+12:45 [Info] Loaded extension SQLite v1.0.2755 by Oxide Team
+12:45 [Info] Loaded extension Unity v1.0.2755 by Oxide Team
+12:45 [Info] Loaded extension RustLegacy v1.0.2755 by Oxide Team
+12:45 [Info] Using Covalence provider for game 'Rust Legacy'
+12:45 [Info] Loading plugins...
+12:45 [Info] Loaded plugin Unity Core v1.0.2755 by Oxide Team
+12:45 [Info] Loaded plugin Rust Legacy v1.0.2755 by Oxide Team
+12:45 [Info] AirdropInBound, Blockitem, CopyPaste, Craft, LootNPC, Modse, RustExtendedCS, Showdamage, TimedExecute, Top and Trader were compiled successfully in 2085ms
+12:45 [Info] Loaded plugin AirdropInBound v1.0.0 by edited by kustanovich
+12:45 [Info] Loaded plugin Blockitem v1.0.0 by edited by kustanovich
+12:45 [Info] [Blockitem] time1 xxxxx  2021-01-07 12:45:55.177
+12:45 [Info] [Blockitem] time2 xxxxx  2021-01-07 13:45:55.177
+12:45 [Info] [Blockitem] M4 : 12/31/2020 14:30:00
+12:45 [Info] [Blockitem]  Revolver : 12/31/2020 14:30:00
+12:45 [Info] [Blockitem] Shotgun : 12/31/2020 14:30:00
+12:45 [Info] [Blockitem] Explosive Charge : 12/31/2020 14:30:00
+12:45 [Info] [Blockitem] F1 Grenade : 12/31/2020 14:30:00
+12:45 [Info] [Blockitem] P250 : 12/31/2020 14:30:00
+12:45 [Info] [Blockitem] MP5A4 : 12/31/2020 14:30:00
+12:45 [Info] [Blockitem] Rock : 12/31/2020 14:30:00
+12:45 [Info] Loaded plugin Copy Paste v1.0.0 by Reneb
+12:45 [Info] Loaded plugin Craft v1.0.0 by edited by kustanovich
+12:45 [Info] Loaded plugin LootNPC v1.0.0 by edited by kustanovich
+12:45 [Info] Loaded plugin Modse v1.0.0 by edited by kustanovich
+12:45 [Info] Loaded plugin RustExtended (C#) Example v1.0.0 by Breaker
+12:45 [Info] Loaded plugin Showdamage v1.0.0 by edited by kustanovich
+12:45 [Warning] Missing plugin name prefix 'showdamage.' for permission 'damagestatus' (by plugin 'Showdamage')
+12:45 [Info] Loaded plugin Timed Execute v1.0.0 by edited by kustanovich
+12:45 [Info] Loaded plugin Top v1.0.0 by edited by kustanovich
+12:45 [Info] Loaded plugin Trader v1.0.0 by edited by kustanovich
+12:46 [Info] [Timed Execute] The RealTime timer has started
+12:50 [Info] Loading Oxide Core v2.0.0...
+12:50 [Info] Loading extensions...
+12:50 [Info] Loaded extension CSharp v1.0.0 by Oxide Team
+12:50 [Info] Loaded extension JavaScript v1.0.2755 by Oxide Team
+12:50 [Info] Loaded extension Lua v1.0.2755 by Oxide Team
+12:50 [Info] Loaded extension MySql v1.0.2755 by Oxide Team
+12:50 [Info] Loaded extension Python v1.0.2755 by Oxide Team
+12:50 [Info] Loaded extension SQLite v1.0.2755 by Oxide Team
+12:50 [Info] Loaded extension Unity v1.0.2755 by Oxide Team
+12:50 [Info] Loaded extension RustLegacy v1.0.2755 by Oxide Team
+12:50 [Info] Using Covalence provider for game 'Rust Legacy'
+12:50 [Info] Loading plugins...
+12:50 [Info] Loaded plugin Unity Core v1.0.2755 by Oxide Team
+12:50 [Info] Loaded plugin Rust Legacy v1.0.2755 by Oxide Team
+12:50 [Info] AirdropInBound, Blockitem, CopyPaste, Craft, LootNPC, Modse, RustExtendedCS, Showdamage, TimedExecute, Top and Trader were compiled successfully in 2034ms
+12:50 [Info] Loaded plugin AirdropInBound v1.0.0 by edited by kustanovich
+12:50 [Info] Loaded plugin Blockitem v1.0.0 by edited by kustanovich
+12:50 [Info] [Blockitem] time1 xxxxx  2021-01-07 12:50:15.238
+12:50 [Info] [Blockitem] time2 xxxxx  2021-01-07 13:50:15.238
+12:50 [Info] [Blockitem] M4 : 12/31/2020 14:30:00
+12:50 [Info] [Blockitem]  Revolver : 12/31/2020 14:30:00
+12:50 [Info] [Blockitem] Shotgun : 12/31/2020 14:30:00
+12:50 [Info] [Blockitem] Explosive Charge : 12/31/2020 14:30:00
+12:50 [Info] [Blockitem] F1 Grenade : 12/31/2020 14:30:00
+12:50 [Info] [Blockitem] P250 : 12/31/2020 14:30:00
+12:50 [Info] [Blockitem] MP5A4 : 12/31/2020 14:30:00
+12:50 [Info] [Blockitem] Rock : 12/31/2020 14:30:00
+12:50 [Info] Loaded plugin Copy Paste v1.0.0 by Reneb
+12:50 [Info] Loaded plugin Craft v1.0.0 by edited by kustanovich
+12:50 [Info] Loaded plugin LootNPC v1.0.0 by edited by kustanovich
+12:50 [Info] Loaded plugin Modse v1.0.0 by edited by kustanovich
+12:50 [Info] Loaded plugin RustExtended (C#) Example v1.0.0 by Breaker
+12:50 [Info] Loaded plugin Showdamage v1.0.0 by edited by kustanovich
+12:50 [Warning] Missing plugin name prefix 'showdamage.' for permission 'damagestatus' (by plugin 'Showdamage')
+12:50 [Info] Loaded plugin Timed Execute v1.0.0 by edited by kustanovich
+12:50 [Info] Loaded plugin Top v1.0.0 by edited by kustanovich
+12:50 [Info] Loaded plugin Trader v1.0.0 by edited by kustanovich
+12:50 [Info] [Timed Execute] The RealTime timer has started
+12:51 [Info] Unloaded plugin AirdropInBound v1.0.0 by edited by kustanovich
+12:51 [Info] Unloaded plugin Blockitem v1.0.0 by edited by kustanovich
+12:51 [Info] Unloaded plugin Copy Paste v1.0.0 by Reneb
+12:51 [Info] Unloaded plugin Craft v1.0.0 by edited by kustanovich
+12:51 [Info] Unloaded plugin LootNPC v1.0.0 by edited by kustanovich
+12:51 [Info] Unloaded plugin Modse v1.0.0 by edited by kustanovich
+12:51 [Info] Unloaded plugin RustExtended (C#) Example v1.0.0 by Breaker
+12:51 [Info] Unloaded plugin Showdamage v1.0.0 by edited by kustanovich
+12:51 [Info] Unloaded plugin Timed Execute v1.0.0 by edited by kustanovich
+12:51 [Info] Unloaded plugin Top v1.0.0 by edited by kustanovich
+12:51 [Info] Unloaded plugin Trader v1.0.0 by edited by kustanovich

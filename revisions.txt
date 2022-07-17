@@ -1,0 +1,2 @@
+> RustExtended plugins revisions file.
+> [*] - Fixed/Changed/Updated, [+] - Added, [-] Removed.
