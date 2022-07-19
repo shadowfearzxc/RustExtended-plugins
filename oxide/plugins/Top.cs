@@ -7,7 +7,7 @@ using RustExtended;
 
 namespace Oxide.Plugins
 {
-    [Info("Top", "kustanovich", "1.0.0")]
+    [Info("Top", "kustanovich", "2.0.0")]
     class Top : RustLegacyPlugin	 
 	{
 		string ChatName = RustExtended.Core.ServerName;
@@ -45,5 +45,17 @@ namespace Oxide.Plugins
             }
         }
 		static void SendMessage(PlayerClient player, string message) { ConsoleNetworker.SendClientCommand(player.netPlayer, "chat.add REBORN "+ Facepunch.Utility.String.QuoteSafe(message));  }		
+			
+			[ChatCommand("stat")]
+		void statistic(NetUser netuser, string command, string[] args)		
+		{			
+			SendMessage(netuser.playerClient, string.Format("{0}", "Твоя личная статистика на сервере : "));
+			UserData userData = Users.GetBySteamID(netuser.userID);
+			string plkil = "Убийств: [COLOR#388FFF] "+RustExtended.Economy.Get(netuser.userID).PlayersKilled+"[color#FFFF00]";
+			string death = "Смертей: [COLOR#388FFF] "+RustExtended.Economy.Get(netuser.userID).Deaths + "[color#FFFF00]";
+
+			SendMessage(netuser.playerClient, string.Format("{0}", plkil));
+			SendMessage(netuser.playerClient, string.Format("{0}", death));			
+		}
 	}
 }
