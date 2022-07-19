@@ -1,6 +1,14 @@
 > RustExtended plugins revisions file.
 > [*] - Fixed/Changed/Updated, [+] - Added, [-] Removed.
 
+--19.07.2022 9:54 PM (version 2.0.0)
+Top.cs
+	[+] Added a new command /stat, that displays your stat on the server ( Kills/Deaths)
+	Usage : /stat
+
 -- 18.07.2022 9:57 PM (version 1.0.0)
-	[+] Added a new plugin that displays the top 5 server players
+Top.cs
+	[+] Added a new plugin Top.cs that displays the top 5 server players
 	Usage : /top
+	
+	
