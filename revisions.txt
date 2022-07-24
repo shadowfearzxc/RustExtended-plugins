@@ -1,7 +1,11 @@
 > RustExtended plugins revisions file.
 > [*] - Fixed/Changed/Updated, [+] - Added, [-] Removed.
 
---19.07.2022 9:54 PM (version 2.0.0)
+--24.07.2022 8:41 PM (version 2.1.0)
+Top.cs
+	[+] Added new message for command /stat, that displays your KD. 
+
+-- 19.07.2022 9:54 PM (version 2.0.0)
 Top.cs
 	[+] Added a new command /stat, that displays your stat on the server ( Kills/Deaths)
 	Usage : /stat
