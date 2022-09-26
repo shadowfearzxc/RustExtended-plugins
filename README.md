@@ -9,7 +9,7 @@
 ## General Information
 
 These are my custom plugins for game Rust Legacy, written on C#
-all updates or edit you can see in revisions.txt file
+* all updates or edit you can see in revisions.txt file
 
 ## Technologies Used
 * C#
