@@ -7,7 +7,7 @@ using RustExtended;
 
 namespace Oxide.Plugins
 {
-    [Info("Casino", "kustanovich", 1.0.2)]
+    [Info("Casino", "kustanovich", "1.0.2")]
     class Casino : RustLegacyPlugin	 
 	{
 			string chatName = "КАЗИНО";
