@@ -23,7 +23,7 @@ namespace Oxide.Plugins
 		void casino(NetUser netuser, string command, string[] args)		
 		{
                     rust.SendChatMessage(netuser, chatName, ("Добро пожаловать в казино, тут ты можешь все проиграть, а можешь и выиграть."));
-					rust.SendChatMessage(netuser, chatName, ("Полагайсяна свою удачу. Для входа в казино, используй команду [COLOR#388FFF]/casall"));
+					rust.SendChatMessage(netuser, chatName, ("Полагайся на свою удачу. Для входа в казино, используй команду [COLOR#388FFF]/casall"));
 					rust.SendChatMessage(netuser, chatName, ("Минимальный баланс для входа : [COLOR#388FFF]5000"));
 	
 		}
