@@ -1,6 +1,17 @@
 > RustExtended plugins revisions file.
 > [*] - Fixed/Changed/Updated, [+] - Added, [-] Removed.
 
+
+--28.09.2022 4:01 PM (version 1.0.2)
+Casino.cs
+	[+] Added a veriety of wins and losses
+	[*] The internal text in the plugins has been changed (RU)
+
+--27.09.2022 11:13 PM (version 1.0.0)
+	[+] Added a new plugins casino.cs (mini game)
+	Usage : /casino
+	      : /casall 
+
 --24.07.2022 8:41 PM (version 2.1.0)
 Top.cs
 	[+] Added new message for command /stat, that displays your KD. 
