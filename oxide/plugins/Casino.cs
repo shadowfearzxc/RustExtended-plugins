@@ -7,7 +7,7 @@ using RustExtended;
 
 namespace Oxide.Plugins
 {
-    [Info("Casino", "kustanovich", "1.0.2")]
+    [Info("Casino", "kustanovich", "1.0.3")]
     class Casino : RustLegacyPlugin	 
 	{
 			string chatName = "КАЗИНО";
@@ -80,7 +80,7 @@ namespace Oxide.Plugins
 		}
 									
 									
-		else {rust.SendChatMessage(netuser, chatName, ("Баланс меньше 5000, ты не можешь играть в казинo!"));}
+		else {rust.SendChatMessage(netuser, chatName, ("Вы не можете играть в казино, потому что баланс меньше : [COLOR#388FFF]5000"));}
 		
 		
 
