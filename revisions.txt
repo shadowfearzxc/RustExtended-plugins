@@ -2,6 +2,11 @@
 > [*] - Fixed/Changed/Updated, [+] - Added, [-] Removed.
 
 
+
+--30.09.2022 11:04 AM (versios 1.0.3)
+Casino.cs
+	[*]Fixed UnityDebug message
+
 --28.09.2022 4:01 PM (version 1.0.2)
 Casino.cs
 	[+] Added a veriety of wins and losses
