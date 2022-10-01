@@ -3,6 +3,10 @@
 
 
 
+--01.10.2022 6:30 Pm (version 1.0.0)
+VKStatus.cs
+	[+] Added a new plugin VKStatus.cs that display PlayersOnline and text in your server group(in status). VK.COM
+
 --30.09.2022 11:04 AM (versios 1.0.3)
 Casino.cs
 	[*]Fixed UnityDebug message
