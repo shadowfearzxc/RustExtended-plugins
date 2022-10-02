@@ -2,18 +2,16 @@
 using System.Collections.Generic;
 using Oxide.Core;
 using Oxide.Core.Libraries;
+using UnityEngine;
 using RustExtended;
 
 namespace Oxide.Plugins
 {
-    [Info("Showdamage", "kustanovich", 1.0,0)]
+    [Info("Showdamage", "kustanovich", 1.0,1)]
     class Showdamage : RustLegacyPlugin
     {
-		void Loaded()
-        {
-			if (!permission.PermissionExists("DamageStatus")) permission.RegisterPermission("DamageStatus", this);   
-
-        }
+		void Init() {UnityEngine.Debug.Log("[SHOWDAGAME PLUGIN] RustExtended : Plugin ShowDamage is loaded!")}
+		void Loaded() { if (!permission.PermissionExists("DamageStatus")) permission.RegisterPermission("DamageStatus", this);   }
 		bool hasDamage(NetUser netuser, string permissionname)
         {
             if (permission.UserHasPermission(netuser.playerClient.userID.ToString(), "DamageStatus")) return true;
