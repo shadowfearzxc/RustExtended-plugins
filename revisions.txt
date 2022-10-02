@@ -2,6 +2,10 @@
 > [*] - Fixed/Changed/Updated, [+] - Added, [-] Removed.
 
 
+--02.10.2022 1:37 PM (version 1.0.1)
+Showdamage.cs
+	[+]using UnityEngine;
+ 	[*]Fixed UnityDebug.log message
 
 --01.10.2022 6:30 Pm (version 1.0.0)
 VKStatus.cs
@@ -9,7 +13,7 @@ VKStatus.cs
 
 --30.09.2022 11:04 AM (versios 1.0.3)
 Casino.cs
-	[*]Fixed UnityDebug message
+	[*]Fixed UnityDebug.log message
 
 --28.09.2022 4:01 PM (version 1.0.2)
 Casino.cs
