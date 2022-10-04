@@ -2,12 +2,16 @@
 > [*] - Fixed/Changed/Updated, [+] - Added, [-] Removed.
 
 
+--04.10.2022 10:22 AM (version 1.0.1)
+VKStatus.cs
+	[*]Fixed UnityDebug.log message
+	
 --02.10.2022 1:37 PM (version 1.0.1)
 Showdamage.cs
 	[+]using UnityEngine;
  	[*]Fixed UnityDebug.log message
 
---01.10.2022 6:30 Pm (version 1.0.0)
+--01.10.2022 6:30 PM (version 1.0.0)
 VKStatus.cs
 	[+] Added a new plugin VKStatus.cs that display PlayersOnline and text in your server group(in status). VK.COM
 
