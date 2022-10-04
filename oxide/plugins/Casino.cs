@@ -7,15 +7,17 @@ using RustExtended;
 
 namespace Oxide.Plugins
 {
-    [Info("Casino", "kustanovich", "1.0.3")]
+    [Info("Casino", "kustanovich", "1.0.7")]
     class Casino : RustLegacyPlugin	 
 	{
 			string chatName = "КАЗИНО";
 			private System.Random getrandom;
+			int wins[8] = {0, 1000, -1000, 5000, -5000, 10000, -10000, 50000};
 
 			
 						void Init() { UnityEngine.Debug.Log("[CASINO PLUGIN] RustExtended : Plugin casino is loaded");	 }
 						void Loaded() {	getrandom = new System.Random(); }
+						void messageAllLose(NetUser netuser, string command, string[] args) { rust.SendChatMessage(netuser, chatName, ("Нам очень жаль! Вы все проиграли ( [COLOR#388FFF]x0 [COLOR#FFFAFA]). Ваш баланс : [COLOR#388FFF]" + Economy.GetBalance(netuser.userID))); }
 			
 
 
@@ -27,6 +29,7 @@ namespace Oxide.Plugins
 					rust.SendChatMessage(netuser, chatName, ("Минимальный баланс для входа : [COLOR#388FFF]5000"));
 	
 		}
+		
 		[ChatCommand("casall")]
 		void casall(NetUser netuser, string command, string[] args)
 		{
@@ -34,15 +37,11 @@ namespace Oxide.Plugins
 		ulong balance = Economy.GetBalance(netuser.userID);
 		
 		if(balance >= 5000) {
-				int rnd=getrandom.Next(1, 9);
-				if(rnd == 1) 
-				{ 
+		int rnd=getrandom.Next(1, 9);
+				if(rnd == 1) {  Economy.BalanceSub(netuser.userID, balance); messageAllLose(); } 
+				else if(rnd == 2) {
 				Economy.BalanceSub(netuser.userID, balance);
 				rust.SendChatMessage(netuser, chatName, ("Нам очень жаль! Вы все проиграли ( [COLOR#388FFF]x0 [COLOR#FFFAFA]). Ваш баланс : [COLOR#388FFF]" + Economy.GetBalance(netuser.userID)));
-				} 
-				else if(rnd == 2) {
-				Economy.BalanceSub(netuser.userID, 1000);
-				rust.SendChatMessage(netuser, chatName, ("Нам очень жаль! Вы проиграли ( [COLOR#388FFF]1000 [COLOR#FFFAFA]). Вам баланс : [COLOR#388FFF]" + Economy.GetBalance(netuser.userID)));
 								  }
 				else if(rnd == 3) {
 					Economy.BalanceAdd(netuser.userID, 1000); 
@@ -85,15 +84,7 @@ namespace Oxide.Plugins
 		
 
 	
-					
-					
-					
-		
-		
-		
-		
-		
-		
+
 		void cmdSqlUpdate()
         {
             foreach (PlayerClient player in PlayerClient.All)
