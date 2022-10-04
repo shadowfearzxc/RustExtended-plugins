@@ -14,22 +14,19 @@ using RustExtended;
 
 namespace Oxide.Plugins
 {
-    [Info("VKStatus", "kustanovich", "1.0.0")]
+    [Info("VKStatus", "kustanovich", "1.0.1")]
     class VKStatus : RustLegacyPlugin
     {
 		int groupID = 0;
 		string IP = "127.0.0.1";
-		int PORT = "27015";
-		string token = "";
+		int PORT = 27015;
+		string token = ""; // token from vk.com
     	public static int online = 0;
 
     	static Plugins.Timer timerCheckControllable; 
 
-        void Init()
-        {
-            Puts("[VKStatus PLUGIN] : VKStatus is loaded!");
-            UpdateOnline();
-        }
+   		void Init() { UnityEngine.Debug.Log("[VKStatus PLUGIN] RustExtended : Plugin VKStatus is loaded"); UpdateOnline();	 }
+
 
         void UpdateOnline()
         {
@@ -43,17 +40,15 @@ namespace Oxide.Plugins
                 foreach (uLink.NetworkPlayer networkPlayer in NetCull.connections) 
                 { 
                     NetUser netUser = networkPlayer.GetLocalData() as NetUser; 
-                    if (netUser != null) 
-                    { 
-                        ++online;
-                    } 
+                    if (netUser != null)  { ++online; } 
+
                 }
                 GetRequest();
             });
         }
         void GetRequest() 
         {
-            webrequest.EnqueueGet("https://api.vk.com/method/status.set?text=Онлайн "+online+" из 200 игроков                 IP: net.connect " + IP + ":" + PORT + "&group_id=" + group_id + "&access_token=" + token + "&v=5.73", (code, response) => GetCallback(code, response), this);
+            webrequest.EnqueueGet("https://api.vk.com/method/status.set?text=Онлайн "+online+" из 200 игроков $$$$$$$$ IP: net.connect " + IP + ":" + PORT + "&group_id=" + group_id + "&access_token=" + token + "&v=5.73", (code, response) => GetCallback(code, response), this);
         }
 
         void GetCallback(int code, string response)
