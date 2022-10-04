@@ -1,6 +1,13 @@
 > RustExtended plugins revisions file.
 > [*] - Fixed/Changed/Updated, [+] - Added, [-] Removed.
 
+-04.10.2022 10:35 AM (version 1.0.7)
+Casino.cs
+	[+]Added array wins for code optimization and reduction
+	[+]Added a void messageAllLose()
+	[-]Removed rust.SendChatMessage()
+	[*]Fixed a variety of wins and losses
+
 
 --04.10.2022 10:22 AM (version 1.0.1)
 VKStatus.cs
