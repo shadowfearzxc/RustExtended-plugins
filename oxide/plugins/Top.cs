@@ -7,7 +7,7 @@ using RustExtended;
 
 namespace Oxide.Plugins
 {
-    [Info("Top", "kustanovich", "2.1.0")]
+    [Info("Top", "kustanovich", "2.1.2")]
     class Top : RustLegacyPlugin	 
 	{
 		string ChatName = RustExtended.Core.ServerName;
@@ -23,7 +23,13 @@ namespace Oxide.Plugins
             colors.Add("[COLOR # 388FFF]");
             colors.Add("[COLOR # 388FFF]");
             colors.Add("[COLOR # 388FFF]");
-            for (int n = 1; n <= 5; n++)
+			colors.Add("[COLOR # 388FFF]");
+			colors.Add("[COLOR # 388FFF]");			 
+			colors.Add("[COLOR # 388FFF]");
+			colors.Add("[COLOR # 388FFF]");		
+			colors.Add("[COLOR # 388FFF]");			
+            for (int n = 1; n <= 10; n++)
+	
             {
                 UserData topPlayer = null;
                 bool flag = false;
