@@ -4,7 +4,7 @@ using Oxide.Core.Libraries;
 using UnityEngine;
 using RustExtended;
 #pragma warning disable 0618 
-
+// alpha 
 namespace Oxide.Plugins
 {
     [Info("Casino", "kustanovich", "1.0.7")]
