@@ -10,6 +10,7 @@
 
 These are my custom plugins for game Rust Legacy, written on C#
 * all updates or edit you can see in revisions.txt file
+* git clone https://github.com/shadowfearzxc/RustExtended-plugins.git
 
 ## Technologies Used
 * C#
