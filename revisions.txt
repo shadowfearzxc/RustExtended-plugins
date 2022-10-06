@@ -3,7 +3,7 @@
 
 
 
---06.10.2022 PM (version 2.0.1 Final Release)
+--06.10.2022 9:20 PM (version 2.0.1 Final Release)
 Casino.cs
 	[*] Casino updated from v1.0.3 to v2.0.1 (Final Release)
 	[*] Fixed global bugs
