@@ -2,6 +2,13 @@
 > [*] - Fixed/Changed/Updated, [+] - Added, [-] Removed.
 
 
+--06.10.2022 7:24 PM (version 1.0.3 Stable)
+Casino.cs
+	[+] Added Stable version for Casino.cs (Casino.Stable.cs v1.0.3)
+	Dont use Casino v1.0.7. Will be a fix soon, and Stable version will be deleted
+	the new version will be overwritten in the old file Casino.cs
+
+
 --04.10.2022 10:44 AM (version 2.1.2)
 Top.cs
 	[*]Top 5 player changed to 10
