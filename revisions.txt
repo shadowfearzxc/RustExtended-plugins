@@ -2,10 +2,31 @@
 > [*] - Fixed/Changed/Updated, [+] - Added, [-] Removed.
 
 
+
+--06.10.2022 PM (version 2.0.1 Final Release)
+Casino.cs
+	[*] Casino updated from v1.0.3 to v2.0.1 (Final Release)
+	[*] Fixed global bugs
+	[*] Changed UnityDebug.log
+	[*] Extends a veriety of wins and losses
+	[-] Removed Casino.Stable.cs
+	[-] Removed a void messageAllLose()
+	[+] Now players can choice their bet from the suggested list
+	Usage : /cas
+	[+] Added a chance in /cas
+	1000   - x2   50%
+	2500   - x2   50%
+	5000   - x2   50%
+	10000  - x2   40%
+	20000  - x2   40%
+	50000  - x2   30%
+	100000 - x2   30%
+
+
 --06.10.2022 7:24 PM (version 1.0.3 Stable)
 Casino.cs
 	[+] Added Stable version for Casino.cs (Casino.Stable.cs v1.0.3)
-	Dont use Casino v1.0.7. Will be a fix soon, and Stable version will be deleted
+	Dont use Casino v1.0.7 alpha. Will be a fix soon, and Stable version will be deleted
 	the new version will be overwritten in the old file Casino.cs
 
 
