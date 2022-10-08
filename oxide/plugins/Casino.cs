@@ -15,7 +15,7 @@ namespace Oxide.Plugins
 				
 	string chatName = "КАЗИНО";
 	int[] wins = {1000, 2500, 5000, 10000, 20000, 50000, 100000};
-	int[] chance = {50, 50, 50, 40, 40, 30, 30};
+	byte[] chance = {50, 50, 50, 40, 40, 30, 30};
 	private System.Random getrandom;
 					
 	[ChatCommand("cas")] 
