@@ -1,6 +1,24 @@
 > RustExtended plugins revisions file.
 > [*] - Fixed/Changed/Updated, [+] - Added, [-] Removed.
 
+
+--09.10.2022 PM (version 2.3.3 FINAL RELEASE)
+Casino.cs
+	[*] Casino updated from v2.0.1 to v2.3.3 (FINAL RELEASE) // i hope ;)
+	[+] Added a chance stay with your money (x1)
+	[-] Removed int rdn2 && int rnd3
+	[*] Mode All-in or Bet
+		Usage : /casall - mode All-in
+		Usage : /cas "bet" - mode Bet
+	[*] Global code reduction and optimization
+	[*] rnd1 getRandom changed from (1,3) to (1,5)
+	[*] rnd && rnd1 changed from int to byte
+	
+	P.S this is final version. I dont see any point in adding or updating anything 
+		in this plugin. If i have any ideas, maybe i will update it globally.
+		ZERO IDEAS.
+
+
 --08.10.2022 10:34 PM (version 2.0.2 Final Release)
 Casino.cs
 	[*] int[] chance changed to byte[] chance
@@ -15,7 +33,7 @@ Casino.cs
 	[-] Removed Casino.Stable.cs
 	[-] Removed a void messageAllLose()
 	[+] Now players can choice their bet from the suggested list
-	Usage : /cas
+		Usage : /cas
 	[+] Added a chance in /cas
 	1000   - x2   50%
 	2500   - x2   50%
@@ -38,6 +56,7 @@ Top.cs
 	[*]Top 5 player changed to 10
 	[-]Removed Oxide.Core.Libraries
 
+
 --04.10.2022 10:35 AM (version 1.0.7 alpha)
 Casino.cs
 	[+]Added array wins for code optimization and reduction
@@ -45,41 +64,50 @@ Casino.cs
 	[-]Removed rust.SendChatMessage()
 	[*]Fixed a variety of wins and losses
 
+
 --04.10.2022 10:22 AM (version 1.0.1)
 VKStatus.cs
 	[*]Fixed UnityDebug.log message
+	
 	
 --02.10.2022 1:37 PM (version 1.0.1)
 Showdamage.cs
 	[+]using UnityEngine;
  	[*]Fixed UnityDebug.log message	
 
+
 --01.10.2022 6:30 PM (version 1.0.0)
 VKStatus.cs
 	[+] Added a new plugin VKStatus.cs that display PlayersOnline and text in your server group(in status). VK.COM
 
+
 --30.09.2022 11:04 AM (versios 1.0.3)
 Casino.cs
 	[*]Fixed UnityDebug.log message
+
 
 --28.09.2022 4:01 PM (version 1.0.2)
 Casino.cs
 	[+] Added a veriety of wins and losses
 	[*] The internal text in the plugins has been changed (RU)
 
+
 --27.09.2022 11:13 PM (version 1.0.0)
 	[+] Added a new plugins casino.cs (mini game)
 	Usage : /casino
 	      : /casall 
 
+
 --24.07.2022 8:41 PM (version 2.1.0)
 Top.cs
 	[+] Added new message for command /stat, that displays your KD. 
+
 
 -- 19.07.2022 9:54 PM (version 2.0.0)
 Top.cs
 	[+] Added a new command /stat, that displays your stat on the server ( Kills/Deaths)
 	Usage : /stat
+
 
 -- 18.07.2022 9:57 PM (version 1.0.0)
 Top.cs
