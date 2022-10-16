@@ -2,7 +2,7 @@
 > [*] - Fixed/Changed/Updated, [+] - Added, [-] Removed.
 
 
---09.10.2022 PM (version 2.3.3 FINAL RELEASE)
+--09.10.2022 3:45 AM (version 2.3.3 FINAL RELEASE)
 Casino.cs
 	[*] Casino updated from v2.0.1 to v2.3.3 (FINAL RELEASE) // i hope ;)
 	[+] Added a chance stay with your money (x1)
