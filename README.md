@@ -20,7 +20,7 @@ These are my custom plugins for game Rust Legacy, written on C#
 ## Features
 * Top - [diplays the top 5 players on game server and your personal information]
 * ShowDamage - [display the damage to the enemy]
-* Casino - [mini game casino]
+* Casino - [mini game casino] - v2.3.3 FINAL RELEASE
 * VKStatus - [display PlayersOnline in your server group - VK.COM]
 
 ## Requirements
